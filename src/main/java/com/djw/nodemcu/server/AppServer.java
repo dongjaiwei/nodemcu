@@ -41,6 +41,7 @@ public class AppServer implements HandlerInterceptor {
         userMapper.upDateToken(token, checkUser.getUserName());
         return new RDate<>(token);
     }
-    
+
+
 
 }
